@@ -23,7 +23,7 @@
 
 ### Criação de componente
 
-No terminal dentro da pasta do componente digite o seguinte comando: 
+No terminal dentro da pasta do componente digite o seguinte comando:
 
 ```shell
 ng generate component meu-componente
@@ -31,7 +31,7 @@ ng generate component meu-componente
 
 Observação: após feito o comando, basta apenas adicionar o componente no lugar desejado dentro do arquivo html, o import no arquivo TypeScript já é automático.
 
-### Metodologias CSS
+### Metodologias CSS estudadas
 
 * BEM
 * Atomic Design
