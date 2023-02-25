@@ -17,9 +17,17 @@
 
 ## Startando nossa aplicação
 
-### Instalação Angular modo CLI: npm i -g @angular/cli
+### Instalação Angular modo CLI 
 
-### Iniciando um projeto com angular: ng new meu-projeto
+```
+npm i -g @angular/cli
+```
+
+### Iniciando um projeto com angular 
+
+```
+ng new meu-projeto
+```
 
 ### Criação de componente
 
