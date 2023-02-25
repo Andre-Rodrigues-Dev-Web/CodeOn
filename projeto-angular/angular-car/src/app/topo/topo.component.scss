@@ -1,0 +1,80 @@
+//Midias queryes
+$desktop: 768px;
+$tablet: 480px;
+$mobile: 320px;
+// Topo
+.topo{
+  background-color: #fff;
+  padding: 10px 15px;
+  position: fixed;
+  width: 100%;
+  &_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    .logo{
+      width: 50%;
+      h1{
+        background-color: #181918;
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 800;
+        padding: 0 2px 0 0;
+        text-transform: uppercase;
+        span{
+          background-color: #006FFF;
+          display: inline-block;
+          padding: 0 8px;
+        }
+      }
+      @media(min-width: $desktop){
+        width: 200px;
+        h1{
+          font-size: 1.375em;
+          width: 150px;
+        }
+      }
+    }
+    .navigation{
+      .links{
+        display: none;
+        li{
+          a{
+            color: #67AEE3;
+            @media(min-width: $desktop){
+              font-size: 0.99rem;
+            }
+          }
+        }
+        @media(min-width: $desktop){
+          display: flex;
+          gap: 10px;
+        }
+      }
+      @media(min-width: $desktop){
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+    }
+    .carrinho{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .text{
+        font-size: 0.98rem;
+        font-weight: bold;
+      }
+      .value{
+        border: 1px solid #D7DAE2;
+        color: #4376B7;
+        font-size: 1.1rem;
+        padding: 8px 15px;
+      }
+    }
+    @media(min-width: $desktop){
+      max-width: 1300px;
+    }
+  }
+}
